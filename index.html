@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Amazon Clone</title>
+
+  <link rel="stylesheet" href="css/style.css">
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+</head>
+<body>
+
+ 
+  <nav class="navbar">
+
+    <div class="logo">
+      <h2>amazon</h2>
+    </div>
+
+    <div class="location">
+      <span>Deliver to</span>
+      <strong>India</strong>
+    </div>
+
+    <div class="search-box">
+      <select>
+        <option>All</option>
+        <option>Electronics</option>
+        <option>Fashion</option>
+        <option>Books</option>
+      </select>
+
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search Amazon"
+      />
+
+      <button>
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </button>
+    </div>
+
+    <div class="nav-links">
+
+      <div>
+        <span>Hello, Sign in</span>
+        <p>Account & Lists</p>
+      </div>
+
+      <div>
+        <span>Returns</span>
+        <p>& Orders</p>
+      </div>
+
+      <div class="cart-link">
+        <a href="cart.html">
+          <i class="fa-solid fa-cart-shopping"></i>
+          Cart
+          <span id="cartCount">0</span>
+        </a>
+      </div>
+
+    </div>
+
+  </nav>
+
+  
+
+  <div class="sub-navbar">
+
+    <a href="#">All</a>
+    <a href="#">Today's Deals</a>
+    <a href="#">Customer Service</a>
+    <a href="#">Prime</a>
+    <a href="#">Electronics</a>
+    <a href="#">Fashion</a>
+    <a href="#">Books</a>
+    <a href="#">Mobiles</a>
+
+  </div>
+
+  
+
+  <section class="hero">
+
+    <div class="hero-content">
+      <h1>Welcome to Amazon Clone</h1>
+
+      <p>
+        Discover electronics, fashion,
+        books and much more.
+      </p>
+
+      <button>Shop Now</button>
+    </div>
+
+  </section>
+
+  
+
+  <section class="categories">
+
+    <div class="category-card">
+      <h3>Electronics</h3>
+      <img
+        src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9"
+        alt=""
+      />
+    </div>
+
+    <div class="category-card">
+      <h3>Fashion</h3>
+      <img
+        src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab"
+        alt=""
+      />
+    </div>
+
+    <div class="category-card">
+      <h3>Books</h3>
+      <img
+        src="https://images.unsplash.com/photo-1524995997946-a1c2e315a42f"
+        alt=""
+      />
+    </div>
+
+    <div class="category-card">
+      <h3>Home Decor</h3>
+      <img
+        src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85"
+        alt=""
+      />
+    </div>
+
+  </section>
+
+  
+
+  <section class="deals">
+
+    <h2>Today's Deals</h2>
+
+    <div class="deal-row">
+
+      <div class="deal-box">
+        <span>Up to 50% Off</span>
+        <p>Electronics</p>
+      </div>
+
+      <div class="deal-box">
+        <span>Up to 40% Off</span>
+        <p>Fashion</p>
+      </div>
+
+      <div class="deal-box">
+        <span>Up to 60% Off</span>
+        <p>Books</p>
+      </div>
+
+      <div class="deal-box">
+        <span>Up to 35% Off</span>
+        <p>Home</p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <section class="products-section">
+
+    <h2>Featured Products</h2>
+
+    <div
+      id="productsContainer"
+      class="products-grid"
+    ></div>
+
+  </section>
+
+  
+
+  <footer>
+
+    <div class="footer-top">
+      Back to top
+    </div>
+
+    <div class="footer-content">
+
+      <div>
+        <h4>Get to Know Us</h4>
+        <p>About Us</p>
+        <p>Careers</p>
+        <p>Blog</p>
+      </div>
+
+      <div>
+        <h4>Connect With Us</h4>
+        <p>Facebook</p>
+        <p>Instagram</p>
+        <p>Twitter</p>
+      </div>
+
+      <div>
+        <h4>Make Money With Us</h4>
+        <p>Sell Products</p>
+        <p>Affiliate</p>
+      </div>
+
+      <div>
+        <h4>Let Us Help You</h4>
+        <p>Your Orders</p>
+        <p>Returns</p>
+        <p>Help</p>
+      </div>
+
+    </div>
+
+  </footer>
+
+  <script src="js/products.js"></script>
+  <script src="js/home.js"></script>
+
+</body>
+</html>

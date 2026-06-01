@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/cart.css">
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+</head>
+<body>
+
+
+    <nav class="navbar">
+
+        <div class="logo">
+            <a href="index.html">
+                <h2>amazon</h2>
+            </a>
+        </div>
+
+        <div class="search-box">
+
+            <select>
+                <option>All</option>
+            </select>
+
+            <input
+                type="text"
+                placeholder="Search Amazon"
+            >
+
+            <button>
+                <i class="fa-solid fa-magnifying-glass"></i>
+            </button>
+
+        </div>
+
+        <div class="nav-links">
+
+            <div>
+                <span>Hello, Sign In</span>
+                <p>Account & Lists</p>
+            </div>
+
+            <div>
+                <span>Returns</span>
+                <p>& Orders</p>
+            </div>
+
+            <div class="cart-link">
+                <a href="cart.html">
+                    <i class="fa-solid fa-cart-shopping"></i>
+                    Cart
+                    <span id="cartCount">0</span>
+                </a>
+            </div>
+
+        </div>
+
+    </nav>
+
+    
+
+    <div class="cart-container">
+
+        <div class="cart-items">
+
+            <h1>Shopping Cart</h1>
+
+            <div id="cartItems">
+
+            </div>
+
+        </div>
+
+        <div class="cart-summary">
+
+            <h2>Order Summary</h2>
+
+            <hr>
+
+            <div class="summary-row">
+                <span>Items:</span>
+                <span id="totalItems">0</span>
+            </div>
+
+            <div class="summary-row">
+                <span>Total:</span>
+                <span id="totalPrice">₹0</span>
+            </div>
+
+            <button id="checkoutBtn">
+                Proceed to Checkout
+            </button>
+
+        </div>
+
+    </div>
+
+    
+
+    <footer>
+
+        <div class="footer-top">
+            Back To Top
+        </div>
+
+        <div class="footer-content">
+
+            <div>
+                <h4>Get To Know Us</h4>
+                <p>About Us</p>
+                <p>Careers</p>
+                <p>Blog</p>
+            </div>
+
+            <div>
+                <h4>Connect With Us</h4>
+                <p>Facebook</p>
+                <p>Instagram</p>
+                <p>Twitter</p>
+            </div>
+
+            <div>
+                <h4>Make Money With Us</h4>
+                <p>Sell Products</p>
+                <p>Affiliate</p>
+            </div>
+
+            <div>
+                <h4>Let Us Help You</h4>
+                <p>Your Orders</p>
+                <p>Returns</p>
+                <p>Help</p>
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="js/cart.js"></script>
+
+</body>
+</html>
