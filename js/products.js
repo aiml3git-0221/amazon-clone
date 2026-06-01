@@ -85,7 +85,7 @@ const products = [
     discount: "31% Off",
     rating: "★★★★☆",
     reviews: 1542,
-    image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85",
+    image: "https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?w=800",
     description:
     "Modern wooden study table for home and office use."
 },
@@ -100,7 +100,7 @@ const products = [
     discount: "43% Off",
     rating: "★★★★★",
     reviews: 9452,
-    image: "https://images.unsplash.com/photo-1524995997946-a1c2e315a42f",
+    image: "https://covers.openlibrary.org/b/isbn/9789390166268-L.jpg",
     description:
     "A bestselling book about money, investing and behavior."
 },
@@ -160,7 +160,7 @@ const products = [
     discount: "25% Off",
     rating: "★★★★☆",
     reviews: 2165,
-    image: "https://images.unsplash.com/photo-1505843513577-22bb7d21e455",
+    image: "https://images.unsplash.com/photo-1580480055273-228ff5388ef8?w=800",
     description:
     "Ergonomic office chair with adjustable height and lumbar support."
 },
